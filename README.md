@@ -2,7 +2,7 @@
 Контейнеризированное Java-приложение для анализа тональности текста, развёрнутое в локальном Kubernetes кластере с автоматическим масштабированием и мониторингом.
 
 ## Быстрый старт
-### ### Предварительные требования
+### Предварительные требования
 - Docker
 - Minikube
 - kubectl
@@ -86,3 +86,4 @@ kubectl port-forward -n monitoring svc/prometheus-grafana 3000:80
 * Оркестрация: Kubernetes (Minikube)
 * Мониторинг: Prometheus, Grafana, Spring Boot Actuator
 * Инфраструктура: Helm, YAML, kubectl
+
